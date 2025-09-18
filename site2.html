@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias OOH - Eletromidia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        header {
+            background-color: #004d99;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #003366;
+            color: white;
+            padding: 0.5em 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .banner {
+            width: 100%;
+            height: 250px;
+            background-color: #007acc;
+            color: white;
+            text-align: center;
+            line-height: 250px;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        main {
+            flex: 3;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-section {
+            margin-bottom: 30px;
+        }
+
+        .news-item {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .news-item:last-child {
+            border-bottom: none;
+        }
+
+        .news-item h2 {
+            color: #004d99;
+        }
+
+        .news-item h3 {
+            color: #666;
+            font-weight: normal;
+        }
+
+        aside {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar-item {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            width: 100%;
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Eletromidia News</h1>
+        <p>As últimas novidades em mídia Out-of-Home</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Produtos OOH</a></li>
+            <li><a href="#">Estudos de Caso</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="banner">
+        Grande Lançamento: Nova Tecnologia de Telas Digitais
+    </div>
+
+    <div class="container">
+        <main>
+            <section class="news-section">
+                <h2>Notícias Recentes</h2>
+
+                <article class="news-item">
+                    <h2>Eletromidia lança nova linha de painéis digitais em metrôs</h2>
+                    <h3>Tecnologia de ponta para impacto visual máximo</h3>
+                    <p>A Eletromidia anuncia o lançamento de uma nova série de painéis digitais para as estações de metrô de São Paulo. Os novos displays contam com resolução 4K e sensores de interação, permitindo campanhas mais dinâmicas e engajadoras para o público...</p>
+                    <a href="#">Leia mais</a>
+                </article>
+
+                <article class="news-item">
+                    <h2>Campanha de conscientização utiliza mídia em abrigos de ônibus</h2>
+                    <h3>Parceria com ONG promove mensagem social através da tecnologia OOH</h3>
+                    <p>Em uma iniciativa inédita, a Eletromidia se une a uma organização não governamental para promover uma campanha de conscientização sobre sustentabilidade. A campanha utiliza os abrigos de ônibus como telas interativas, mostrando dados em tempo real sobre o meio ambiente...</p>
+                    <a href="#">Leia mais</a>
+                </article>
+
+                <article class="news-item">
+                    <h2>Expansão da rede de telões em aeroportos</h2>
+                    <h3>Mais de 500 novos pontos digitais em terminais do país</h3>
+                    <p>Para atender à crescente demanda por publicidade em ambientes de alto tráfego, a Eletromidia expande sua rede de telões digitais em aeroportos. A iniciativa visa oferecer mais visibilidade para marcas que buscam atingir um público qualificado e em movimento...</p>
+                    <a href="#">Leia mais</a>
+                </article>
+            </section>
+        </main>
+
+        <aside>
+            <section class="sidebar-item">
+                <h3>Últimos Posts</h3>
+                <ul>
+                    <li><a href="#">O futuro da mídia exterior</a></li>
+                    <li><a href="#">Como a IA está transformando a publicidade OOH</a></li>
+                    <li><a href="#">Cases de sucesso de campanhas digitais</a></li>
+                </ul>
+            </section>
+
+            <section class="sidebar-item">
+                <h3>Categorias</h3>
+                <ul>
+                    <li><a href="#">Tecnologia</a></li>
+                    <li><a href="#">Inovação</a></li>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Parcerias</a></li>
+                </ul>
+            </section>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Eletromidia News. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
